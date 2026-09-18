@@ -1,4 +1,5 @@
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet} from 'react-native';
+import { COLORS } from '../constants/colors';
 
 export function ActionButtons() {
     return (
@@ -16,5 +17,13 @@ export function ActionButtons() {
 
     
 }
+
+const styles = StyleSheet.create({
+    text: {
+        color: COLORS.textMain,
+        fontSize: 16,
+        textAlign: 'center',
+    },
+});
 
 export default ActionButtons
