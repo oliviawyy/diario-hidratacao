@@ -12,12 +12,13 @@ export default function App() {
 
     // funcao para acumular a quantidade ingerida
     const handleAddWater = (amount) => {
-
+      setCosumed(consumed + amount);
+      
     };
 
     //funcao para zerar o contador
     const handleReset = () => {
-
+      setCosumed(0);
     };
 
     return (
