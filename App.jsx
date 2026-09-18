@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyleSheet, View, StatusBar, Text } from 'react-native';
+import { StyleSheet, View, StatusBar, Text} from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS } from './src/constants/colors';
 import { Header } from './src/components/Header';
@@ -26,6 +26,7 @@ export default function App() {
       <Text>meu app</Text>
       <Header />
       <ActionButtons />
+
     </View>
   )
 

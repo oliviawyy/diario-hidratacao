@@ -12,7 +12,9 @@ export function ActionButtons() {
 
         </View>
 
-    )
+    );
+
+    
 }
 
 export default ActionButtons
