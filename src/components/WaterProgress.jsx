@@ -1,9 +1,11 @@
 import { StyleSheet, View, StatusBar } from 'react-native';
 
-export function WaterProgress({}) {
+export function WaterProgress() {
     return (
         <View>
             <Text>WaterProgress</Text>
         </View>
     )
 }
+
+export default WaterProgress    
