@@ -17,6 +17,20 @@ export function WaterProgress({consumed, goal}) {
 }
 
 const styles = StyleSheet.create({
+    card:{
+        backgroundColor: COLORS.cardBg,
+        borderRadius: 16,
+        padding: 20,
+        width: '100%',
+        alignItems: 'center',
+        marginBottom: 24,
+        elevation: 3,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+    },
+    
     progressBarBackground:{
         width: '100%',
         height: 12,
