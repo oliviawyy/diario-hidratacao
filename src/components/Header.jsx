@@ -15,6 +15,7 @@ const headerStyles = StyleSheet.create({
   container:{
     marginBottom: 24,
     alignItems: 'center',
+    
   },
 
   title:{
