@@ -28,6 +28,7 @@ export default function App() {
         <View >
           <Header GOAL = {GOAL}/>
           <WaterProgress consumed={1000} goal={GOAL}/>
+          <ActionButtons />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
