@@ -21,7 +21,7 @@ export function ActionButtons({onAddWater}) {
                 </Pressable>
             </View>
 
-            <Pressable style={styles.botaoReset} onPress={() => alert('Resetou o dia')}>
+            <Pressable style={styles.botaoReset} onPress={() => onReset()}>
                 <Text style={styles.textoReset}>🔁 Resetar Dia</Text>
             </Pressable>
 
@@ -50,6 +50,8 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginRight: 10,
         width: 100,
+        alingnItems: 'center',
+
     },
 
     botaoReset: {
@@ -59,6 +61,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flex: 1,
         width: 100,
+    },
+
+    textoReset: {
+        color: COLORS.textMain,
+        fontSize: 16,
+        textAlign: 'center',
     },
 });
 
